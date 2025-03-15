@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header li{
+    text-align: center;
+    margin:auto 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px ;
+}
+nav p{
+    font-weight: bold;
+}
+header {    
+    background: no-repeat center/cover url("assets/header-image.jpg");
+    height:30vh;
+    color: #ffffff;
+    padding: 20px;
+
+    a:link {
+        color:#00ccff;
+        text-decoration: none;
+    }
+     a:visited {
+        color:#00ccff;
+    }
+}
+
+h1{
+    font-family: "DM Serif Text", serif;
+   }
+h2{
+    color: #0f1531;
+    font-family: "DM Serif Text", serif;
+   }
+h3{
+    font-family: "DM Serif Text", serif;
+}
+h4{
+    font-family: "Open Sans", sans-serif;
+   }
+   footer{
+    text-align: center;
+    background: no-repeat center/cover url("assets/header-image.jpg");
+    height:20vh;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+   }
+   footer ul{
+    list-style: none;
+    justify-content: center;
+   }
+
+   footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: -5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
