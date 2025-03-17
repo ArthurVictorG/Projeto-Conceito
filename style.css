@@ -28,8 +28,8 @@ header {
 }
 
 .botao{
-    background-color: #55616b;
-    border: none;
+    background-color: transparent;
+    border: 2px solid white;
     color: #fff;
     padding: 15px 32px;
     text-align: center;
@@ -40,7 +40,7 @@ header {
     transition: background-color 0.5s ease;
 }
 .botao:hover{
-    background-color: #0051ff;
+    background-color:#0051ff;
 }
 
 header h1 {
