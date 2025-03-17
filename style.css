@@ -41,6 +41,7 @@ header {
 }
 .botao:hover{
     background-color:#0051ff;
+    text-decoration: none;
 }
 
 header h1 {
